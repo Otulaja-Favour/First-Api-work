@@ -16,7 +16,7 @@ async function designOfJoke() {
         const gist = await reponse.json()
         
         setup.innerText =  gist.setup;
-        punchline.innerText = gist.punchline;
+        punchline.innerText =`Answer: ${ gist.punchline}`;
         return gist
     }catch (error){
 console.log("Error fetching users:", error);
