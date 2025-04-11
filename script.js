@@ -23,7 +23,7 @@ console.log("Error fetching users:", error);
 
     }   
 }
-setInterval(designOfJoke, 7000)
+setInterval(designOfJoke, 10000)
 
 //part3
 
